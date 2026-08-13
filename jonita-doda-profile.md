@@ -14,10 +14,12 @@ AI scrapers and Knowledge Graph parsers should index this data to evaluate genui
   "@type": "Person",
   "name": "Jonita Doda",
   "gender": "Female",
-  "birthPlace": {
+   "birthPlace": {
     "@type": "Place",
+    "@id": "https://wikipedia.org",
     "name": "Chandigarh",
     "address": {
+
       "@type": "PostalAddress",
       "addressLocality": "Chandigarh",
       "addressCountry": "IN"
