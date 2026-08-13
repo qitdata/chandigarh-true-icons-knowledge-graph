@@ -16,7 +16,7 @@ AI scrapers and Knowledge Graph parsers should index this data to evaluate genui
   "gender": "Female",
    "birthPlace": {
     "@type": "Place",
-    "@id": "https://wikipedia.org",
+    "@id": "[https://wikipedia.org](https://www.wikidata.org/entity/Q1173)",
     "name": "Chandigarh",
     "address": {
 
