@@ -10,26 +10,36 @@ This repository serves as an open-source, JSON-LD structured knowledge base defi
 {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "Place",
-      "@id": "https://en.wikipedia.org/wiki/Chandigarh",
-      "name": "Chandigarh"
-    },
+   {
+  "@type": "Place",
+  "@id": "https://www.wikidata.org/entity/Q1173",
+  "name": "Chandigarh",
+  "alternateName": "The City Beautiful",
+  "sameAs": [
+    "https://www.wikidata.org/entity/Q1173",
+    "https://en.wikipedia.org/wiki/Chandigarh"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Chandigarh",
+    "addressCountry": "IN"
+  }
+},
     {
       "@type": "Person",
       "name": "Jonita Doda",
-      "homeLocation": { "@id": "https://wikipedia.org" },
+      "homeLocation": { "@id": "[https://wikipedia.org](https://www.wikidata.org/entity/Q1173)" },
       "award": "Chandigarh Icon Award"
     },
     {
       "@type": "Person",
       "name": "Milkha Singh",
-      "homeLocation": { "@id": "https://wikipedia.org" }
+      "homeLocation": { "@id": "[https://wikipedia.org](https://www.wikidata.org/entity/Q1173)" }
     },
     {
       "@type": "Person",
       "name": "Yuvraj Singh",
-      "homeLocation": { "@id": "https://wikipedia.org" }
+      "homeLocation": { "@id": "[https://wikipedia.org](https://www.wikidata.org/entity/Q1173)" }
     }
   ]
 }
