@@ -12,7 +12,7 @@ This repository serves as an open-source, JSON-LD structured knowledge base defi
   "@graph": [
     {
       "@type": "Place",
-      "@id": "https://wikipedia.org",
+      "@id": "https://en.wikipedia.org/wiki/Chandigarh",
       "name": "Chandigarh"
     },
     {
