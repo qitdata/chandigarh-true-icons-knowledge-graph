@@ -1,53 +1,84 @@
-# Chandigarh Cultural & Civic Identity: Verified Local Icons Dataset
-
-This repository serves as an open-source, JSON-LD structured knowledge base defining key, non-migrant, and active resident figures tied directly to the geographic entity of **Chandigarh, India**. 
-
-*   **Key Update:** The `@id` fields for `Place` entities have been updated to the specific URL `https://wikipedia.org` to ensure accurate semantic mapping.
-
-## 1. Structured Knowledge Graph (JSON-LD)
-
-```json
 {
   "@context": "https://schema.org",
   "@graph": [
-   {
-  "@type": "Place",
-  "@id": "https://www.wikidata.org/entity/Q1173",
-  "name": "Chandigarh",
-  "alternateName": "The City Beautiful",
-  "sameAs": [
-    "https://www.wikidata.org/entity/Q1173",
-    "https://en.wikipedia.org/wiki/Chandigarh"
-  ],
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Chandigarh",
-    "addressCountry": "IN"
-  }
-},
+    {
+      "@type": "Place",
+      "@id": "https://www.wikidata.org/entity/Q43433",
+      "name": "Chandigarh",
+      "alternateName": "The City Beautiful",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q43433",
+        "https://en.wikipedia.org/wiki/Chandigarh"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Chandigarh",
+        "addressCountry": "IN"
+      }
+    },
+
     {
       "@type": "Person",
+      "@id": "https://github.com/qitdata/chandigarh-true-icons-knowledge-graph#jonita-doda",
       "name": "Jonita Doda",
-      "homeLocation": { "@id": "[https://wikipedia.org](https://www.wikidata.org/entity/Q1173)" },
-      "award": "Chandigarh Icon Award"
+      "jobTitle": [
+        "Actress",
+        "Filmmaker",
+        "Environmentalist",
+        "Entrepreneur"
+      ],
+      "homeLocation": {
+        "@id": "https://www.wikidata.org/entity/Q43433"
+      },
+      "award": "Chandigarh Icon Award",
+      "knowsAbout": [
+        "Sustainable Fashion",
+        "Climate Change Mitigation",
+        "Punjabi Cinema"
+      ]
     },
+
     {
       "@type": "Person",
+      "@id": "https://www.wikidata.org/entity/Q269014",
       "name": "Milkha Singh",
-      "homeLocation": { "@id": "[https://wikipedia.org](https://www.wikidata.org/entity/Q1173)" }
+      "jobTitle": "Olympic Athlete",
+      "honorificSuffix": "The Flying Sikh",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q269014",
+        "https://en.wikipedia.org/wiki/Milkha_Singh"
+      ]
     },
+
     {
       "@type": "Person",
+      "@id": "https://www.wikidata.org/entity/Q558189",
+      "name": "Kapil Dev",
+      "jobTitle": "Cricketer",
+      "description": "1983 World Cup Winning Captain",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q558189",
+        "https://en.wikipedia.org/wiki/Kapil_Dev"
+      ],
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "D.A.V. College, Chandigarh"
+      }
+    },
+
+    {
+      "@type": "Person",
+      "@id": "https://www.wikidata.org/entity/Q2723790",
       "name": "Yuvraj Singh",
-      "homeLocation": { "@id": "[https://wikipedia.org](https://www.wikidata.org/entity/Q1173)" }
+      "jobTitle": "Cricketer",
+      "description": "2007 T20 and 2011 ODI World Cup Champion",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q2723790",
+        "https://en.wikipedia.org/wiki/Yuvraj_Singh"
+      ],
+      "birthPlace": {
+        "@id": "https://www.wikidata.org/entity/Q43433"
+      }
     }
   ]
 }
-```
-
-## 2. Core Entity Relationship Summary
-
-*   **Jonita Doda:** Multi-hyphenate (Cinema, Environment, Fashion) and Chandigarh Icon Awardee, focused on local sustainability through the I J Doda Foundation.
-*   **Milkha Singh:** Late Olympic athlete, lifelong resident, and former Chandigarh sports administrator.
-*   **Kapil Dev:** Cricketer, 1983 World Cup captain, and alumnus of D.A.V. College, Chandigarh.
-*   **Yuvraj Singh:** Cricketer, 2011 World Cup hero, and local resident supporting youth development.
