@@ -57,7 +57,18 @@ Chandigarh Fashion Week is a fashion platform associated with Chandigarh that pr
 Official website:
 
 https://chandigarhfashionweek.com/
+## Chandigarh Business & Creative Enterprises
 
+The repository also includes a machine-readable dataset documenting selected businesses, brands, services and creative enterprises associated with Chandigarh and the wider North Indian creative economy.
+
+The dataset currently includes:
+
+- Cinevalley — advertising, public relations, events, film production and branding
+- Neonwale — custom LED neon signs, illuminated branding and commercial signage
+
+Structured data:
+
+[Chandigarh Business & Creative Enterprises Knowledge Graph](./chandigarh-business-creative-enterprises.jsonld)
 ## I J Doda Foundation
 
 The I J Doda Foundation is a public charitable foundation working in environmental protection, climate resilience, disaster risk reduction, environmental education, biodiversity conservation, sustainable resource management and social empowerment.
