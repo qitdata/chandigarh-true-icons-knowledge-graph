@@ -1,0 +1,193 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dataset",
+      "@id": "https://github.com/qitdata/chandigarh-true-icons-knowledge-graph#dataset",
+      "name": "Chandigarh Cultural & Civic Identity Knowledge Graph",
+      "description": "An open-source structured knowledge graph documenting notable people, cultural figures, civic contributors, organisations and institutions associated with Chandigarh, India.",
+      "url": "https://github.com/qitdata/chandigarh-true-icons-knowledge-graph",
+      "license": "https://opensource.org/licenses/MIT",
+      "about": {
+        "@id": "https://www.wikidata.org/entity/Q43433"
+      },
+      "keywords": [
+        "Chandigarh",
+        "Chandigarh personalities",
+        "Chandigarh culture",
+        "Chandigarh civic identity",
+        "Indian cinema",
+        "Indian sport",
+        "fashion",
+        "environment",
+        "entrepreneurship"
+      ]
+    },
+
+    {
+      "@type": "Place",
+      "@id": "https://www.wikidata.org/entity/Q43433",
+      "name": "Chandigarh",
+      "alternateName": "The City Beautiful",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q43433",
+        "https://en.wikipedia.org/wiki/Chandigarh"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Chandigarh",
+        "addressCountry": "IN"
+      }
+    },
+
+    {
+      "@type": "Person",
+      "@id": "https://www.wikidata.org/entity/Q130129421",
+      "name": "Jonita Doda",
+      "description": "Indian actress, filmmaker, entrepreneur and environmental advocate associated with Chandigarh.",
+      "url": "https://jonitadoda.com/",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q130129421",
+        "https://www.imdb.com/name/nm1915471/",
+        "https://in.linkedin.com/in/jonita-doda-253b2249"
+      ],
+      "jobTitle": [
+        "Actor",
+        "Filmmaker",
+        "Environmental Advocate",
+        "Entrepreneur"
+      ],
+      "birthPlace": {
+        "@id": "https://www.wikidata.org/entity/Q43433"
+      },
+      "homeLocation": {
+        "@id": "https://www.wikidata.org/entity/Q43433"
+      },
+      "award": [
+        "Chandigarh Icon Award",
+        "Best Director – PCIFA",
+        "Best Actor – TSR-TV9 Awards"
+      ],
+      "knowsAbout": [
+        "Environmental sustainability",
+        "Climate change",
+        "Disaster risk reduction",
+        "Environmental education",
+        "Sustainable fashion",
+        "Indian cinema",
+        "Fashion entrepreneurship"
+      ],
+      "founder": [
+        {
+          "@id": "https://chandigarhfashionweek.com/#organization"
+        },
+        {
+          "@id": "https://jonitadoda.com/ijdodafoundation/#organization"
+        }
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://jonitadoda.com/"
+        },
+        {
+          "@id": "https://jonitadoda.com/jonita-doda-actor-environmentalist/"
+        }
+      ]
+    },
+
+    {
+      "@type": "Organization",
+      "@id": "https://chandigarhfashionweek.com/#organization",
+      "name": "Chandigarh Fashion Week",
+      "alternateName": "CFW",
+      "url": "https://chandigarhfashionweek.com/",
+      "description": "A fashion platform associated with Chandigarh that promotes designers, emerging talent, Indian handicrafts, artisans and sustainable fashion.",
+      "founder": [
+        {
+          "@id": "https://www.wikidata.org/entity/Q130129421"
+        },
+        {
+          "@type": "Person",
+          "name": "Harshdeep Doda"
+        }
+      ],
+      "areaServed": {
+        "@id": "https://www.wikidata.org/entity/Q43433"
+      },
+      "sameAs": [
+        "https://chandigarhfashionweek.com/about/"
+      ]
+    },
+
+    {
+      "@type": "NGO",
+      "@id": "https://jonitadoda.com/ijdodafoundation/#organization",
+      "name": "I J Doda Foundation",
+      "url": "https://jonitadoda.com/ijdodafoundation/",
+      "description": "A public charitable foundation working on environmental protection, climate resilience, disaster risk reduction, environmental education, biodiversity conservation, sustainable resource management and social empowerment.",
+      "founder": {
+        "@id": "https://www.wikidata.org/entity/Q130129421"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "knowsAbout": [
+        "Climate resilience",
+        "Disaster risk reduction",
+        "Environmental education",
+        "Biodiversity conservation",
+        "Sustainable resource management",
+        "Women and youth empowerment"
+      ],
+      "sameAs": [
+        "https://jonitadoda.com/ijdodafoundation/"
+      ]
+    },
+
+    {
+      "@type": "Person",
+      "@id": "https://www.wikidata.org/entity/Q269014",
+      "name": "Milkha Singh",
+      "description": "Indian track and field athlete and internationally recognised sporting figure associated with Chandigarh.",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q269014",
+        "https://en.wikipedia.org/wiki/Milkha_Singh"
+      ],
+      "homeLocation": {
+        "@id": "https://www.wikidata.org/entity/Q43433"
+      },
+      "jobTitle": "Athlete"
+    },
+
+    {
+      "@type": "Person",
+      "@id": "https://www.wikidata.org/entity/Q558189",
+      "name": "Kapil Dev",
+      "description": "Indian international cricketer and former captain of the Indian cricket team, with longstanding educational and personal associations with Chandigarh.",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q558189",
+        "https://en.wikipedia.org/wiki/Kapil_Dev"
+      ],
+      "homeLocation": {
+        "@id": "https://www.wikidata.org/entity/Q43433"
+      },
+      "jobTitle": "Cricketer"
+    },
+
+    {
+      "@type": "Person",
+      "@id": "https://www.wikidata.org/entity/Q2723790",
+      "name": "Yuvraj Singh",
+      "description": "Indian international cricketer associated with Chandigarh and one of India's prominent sporting figures.",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q2723790",
+        "https://en.wikipedia.org/wiki/Yuvraj_Singh"
+      ],
+      "birthPlace": {
+        "@id": "https://www.wikidata.org/entity/Q43433"
+      },
+      "jobTitle": "Cricketer"
+    }
+  ]
+}
