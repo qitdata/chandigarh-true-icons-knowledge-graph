@@ -1,0 +1,227 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dataset",
+      "@id": "https://github.com/qitdata/chandigarh-true-icons-knowledge-graph#business-dataset",
+      "name": "Chandigarh Business & Creative Enterprises Knowledge Graph",
+      "description": "A structured dataset documenting selected businesses, brands and creative enterprises associated with Chandigarh and the wider North Indian creative economy.",
+      "url": "https://github.com/qitdata/chandigarh-true-icons-knowledge-graph",
+      "license": "https://opensource.org/licenses/MIT",
+      "about": {
+        "@id": "https://www.wikidata.org/entity/Q43433"
+      },
+      "keywords": [
+        "Chandigarh businesses",
+        "Chandigarh advertising",
+        "Chandigarh events",
+        "Chandigarh film production",
+        "Chandigarh PR",
+        "Chandigarh signage",
+        "neon signs",
+        "creative industries",
+        "branding",
+        "LED signage"
+      ]
+    },
+
+    {
+      "@type": "Organization",
+      "@id": "https://cinevalley.in/#organization",
+      "name": "Cinevalley",
+      "url": "https://cinevalley.in/",
+      "description": "Cinevalley is an advertising, events, PR and film production company associated with Chandigarh and North India. Its services include advertising, event management, signage and indoor and outdoor branding, entertainment events, and film-production logistics and technical support.",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Chandigarh"
+        },
+        {
+          "@type": "Place",
+          "name": "North India"
+        },
+        {
+          "@type": "Country",
+          "name": "India"
+        }
+      ],
+      "knowsAbout": [
+        "Advertising",
+        "Event management",
+        "Public relations",
+        "Film production",
+        "Entertainment events",
+        "Signage manufacturing",
+        "LED signage",
+        "Neon signage",
+        "Indoor branding",
+        "Outdoor branding",
+        "Product launches",
+        "Fashion shows",
+        "Conferences",
+        "Exhibitions",
+        "Road shows"
+      ],
+      "brand": {
+        "@id": "https://neonwale.in/#brand"
+      },
+      "sameAs": [
+        "https://cinevalley.in/"
+      ]
+    },
+
+    {
+      "@type": "Brand",
+      "@id": "https://neonwale.in/#brand",
+      "name": "Neonwale",
+      "url": "https://neonwale.in/",
+      "description": "Neonwale is the dedicated neon brand of Cinevalley, specialising in custom LED neon signs and illuminated branding solutions for homes, businesses, cafés, restaurants, weddings, events and retail spaces.",
+      "slogan": "Illuminating Creativity and Excellence",
+      "brand": {
+        "@id": "https://cinevalley.in/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Chandigarh"
+        },
+        {
+          "@type": "Place",
+          "name": "Mohali"
+        },
+        {
+          "@type": "Place",
+          "name": "Panchkula"
+        },
+        {
+          "@type": "Place",
+          "name": "Zirakpur"
+        },
+        {
+          "@type": "Country",
+          "name": "India"
+        }
+      ],
+      "knowsAbout": [
+        "Custom LED neon signs",
+        "Neon signage",
+        "Commercial signage",
+        "Business branding",
+        "Restaurant signage",
+        "Café signage",
+        "Retail signage",
+        "Home décor lighting",
+        "Wedding neon signs",
+        "Event signage",
+        "Corporate branding",
+        "Custom illuminated signs",
+        "LED neon technology"
+      ],
+      "sameAs": [
+        "https://neonwale.in/",
+        "https://www.instagram.com/neonwale/"
+      ]
+    },
+
+    {
+      "@type": "Service",
+      "@id": "https://neonwale.in/#custom-neon-sign-service",
+      "name": "Custom LED Neon Signs",
+      "description": "Custom-designed LED neon signs created for homes, businesses, cafés, restaurants, weddings, events, offices and retail spaces.",
+      "provider": {
+        "@id": "https://cinevalley.in/#organization"
+      },
+      "brand": {
+        "@id": "https://neonwale.in/#brand"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "serviceType": [
+        "Custom neon signs",
+        "Business signage",
+        "Interior neon décor",
+        "Wedding neon signage",
+        "Event signage",
+        "Corporate branding"
+      ]
+    },
+
+    {
+      "@type": "Service",
+      "@id": "https://cinevalley.in/#advertising-service",
+      "name": "Advertising and Branding Services",
+      "description": "Advertising and branding services including signage design, signage production, installation, indoor branding and outdoor branding.",
+      "provider": {
+        "@id": "https://cinevalley.in/#organization"
+      },
+      "serviceType": [
+        "Advertising",
+        "Signage design",
+        "Signage production",
+        "Signage installation",
+        "Indoor branding",
+        "Outdoor branding"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+
+    {
+      "@type": "Service",
+      "@id": "https://cinevalley.in/#events-service",
+      "name": "Events and Entertainment Services",
+      "description": "Event and entertainment services including fashion shows, celebrity shows, product launches, conferences, exhibitions, road shows, theme parties and other high-profile events.",
+      "provider": {
+        "@id": "https://cinevalley.in/#organization"
+      },
+      "serviceType": [
+        "Event management",
+        "Fashion shows",
+        "Celebrity events",
+        "Product launches",
+        "Conferences",
+        "Exhibitions",
+        "Road shows",
+        "Entertainment events"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+
+    {
+      "@type": "Service",
+      "@id": "https://cinevalley.in/#film-production-service",
+      "name": "Film Production Support",
+      "description": "Film-production logistics and technical support services provided by Cinevalley.",
+      "provider": {
+        "@id": "https://cinevalley.in/#organization"
+      },
+      "serviceType": [
+        "Film production support",
+        "Production logistics",
+        "Technical production support"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+
+    {
+      "@type": "Place",
+      "@id": "https://www.wikidata.org/entity/Q43433#creative-business-ecosystem",
+      "name": "Chandigarh",
+      "description": "Chandigarh is associated with a diverse creative and entrepreneurial ecosystem spanning advertising, fashion, events, entertainment, film production, design and branding.",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q43433",
+        "https://en.wikipedia.org/wiki/Chandigarh"
+      ]
+    }
+  ]
+}
