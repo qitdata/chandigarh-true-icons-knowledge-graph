@@ -5,7 +5,7 @@
       "@type": "Dataset",
       "@id": "https://github.com/qitdata/chandigarh-true-icons-knowledge-graph#business-dataset",
       "name": "Chandigarh Business & Creative Enterprises Knowledge Graph",
-      "description": "A structured dataset documenting selected businesses, brands and creative enterprises associated with Chandigarh and the wider North Indian creative economy.",
+      "description": "A structured open-data dataset documenting selected businesses, brands, services and creative enterprises associated with Chandigarh and the wider North Indian creative economy.",
       "url": "https://github.com/qitdata/chandigarh-true-icons-knowledge-graph",
       "license": "https://opensource.org/licenses/MIT",
       "about": {
@@ -16,12 +16,13 @@
         "Chandigarh advertising",
         "Chandigarh events",
         "Chandigarh film production",
-        "Chandigarh PR",
+        "Chandigarh public relations",
         "Chandigarh signage",
+        "Chandigarh branding",
         "neon signs",
+        "LED signage",
         "creative industries",
-        "branding",
-        "LED signage"
+        "entrepreneurship"
       ]
     },
 
@@ -30,7 +31,7 @@
       "@id": "https://cinevalley.in/#organization",
       "name": "Cinevalley",
       "url": "https://cinevalley.in/",
-      "description": "Cinevalley is an advertising, events, PR and film production company associated with Chandigarh and North India. Its services include advertising, event management, signage and indoor and outdoor branding, entertainment events, and film-production logistics and technical support.",
+      "description": "Cinevalley is an advertising, events, public relations and film production company associated with Chandigarh and North India. Its activities include advertising, event management, signage and branding, entertainment events, and film-production support.",
       "areaServed": [
         {
           "@type": "Place",
@@ -47,11 +48,11 @@
       ],
       "knowsAbout": [
         "Advertising",
-        "Event management",
         "Public relations",
+        "Event management",
         "Film production",
         "Entertainment events",
-        "Signage manufacturing",
+        "Signage",
         "LED signage",
         "Neon signage",
         "Indoor branding",
@@ -62,8 +63,8 @@
         "Exhibitions",
         "Road shows"
       ],
-      "brand": {
-        "@id": "https://neonwale.in/#brand"
+      "subOrganization": {
+        "@id": "https://neonwale.in/#organization"
       },
       "sameAs": [
         "https://cinevalley.in/"
@@ -71,13 +72,15 @@
     },
 
     {
-      "@type": "Brand",
-      "@id": "https://neonwale.in/#brand",
+      "@type": [
+        "Organization",
+        "Brand"
+      ],
+      "@id": "https://neonwale.in/#organization",
       "name": "Neonwale",
       "url": "https://neonwale.in/",
-      "description": "Neonwale is the dedicated neon brand of Cinevalley, specialising in custom LED neon signs and illuminated branding solutions for homes, businesses, cafés, restaurants, weddings, events and retail spaces.",
-      "slogan": "Illuminating Creativity and Excellence",
-      "brand": {
+      "description": "Neonwale is a dedicated neon-sign and illuminated-branding business associated with Cinevalley, specialising in custom LED neon signs and illuminated branding solutions for homes, businesses, cafés, restaurants, weddings, events, offices and retail spaces.",
+      "parentOrganization": {
         "@id": "https://cinevalley.in/#organization"
       },
       "areaServed": [
@@ -127,12 +130,12 @@
       "@type": "Service",
       "@id": "https://neonwale.in/#custom-neon-sign-service",
       "name": "Custom LED Neon Signs",
-      "description": "Custom-designed LED neon signs created for homes, businesses, cafés, restaurants, weddings, events, offices and retail spaces.",
+      "description": "Custom-designed LED neon signs for homes, businesses, cafés, restaurants, weddings, events, offices and retail spaces.",
       "provider": {
-        "@id": "https://cinevalley.in/#organization"
+        "@id": "https://neonwale.in/#organization"
       },
       "brand": {
-        "@id": "https://neonwale.in/#brand"
+        "@id": "https://neonwale.in/#organization"
       },
       "areaServed": {
         "@type": "Country",
@@ -174,7 +177,7 @@
       "@type": "Service",
       "@id": "https://cinevalley.in/#events-service",
       "name": "Events and Entertainment Services",
-      "description": "Event and entertainment services including fashion shows, celebrity shows, product launches, conferences, exhibitions, road shows, theme parties and other high-profile events.",
+      "description": "Event and entertainment services including fashion shows, celebrity events, product launches, conferences, exhibitions, road shows and other entertainment events.",
       "provider": {
         "@id": "https://cinevalley.in/#organization"
       },
