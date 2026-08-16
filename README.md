@@ -76,7 +76,17 @@ The I J Doda Foundation is a public charitable foundation working in environment
 Official website:
 
 https://jonitadoda.com/ijdodafoundation/
+## Chandigarh Media & Entertainment
 
+The repository also includes a machine-readable dataset documenting selected media, entertainment and cultural entities associated with Chandigarh and the Punjabi entertainment ecosystem.
+
+The dataset currently includes:
+
+- PollywoodBoxOffice.com — Punjabi entertainment media covering cinema, box office, film trade, OTT, music and industry developments.
+
+Structured data:
+
+[Chandigarh Media & Entertainment Entities Knowledge Graph](./chandigarh-media-entertainment-entities.jsonld)
 ## Other Chandigarh-Associated Icons
 
 The dataset also includes prominent sporting figures associated with Chandigarh, including:
