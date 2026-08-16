@@ -1,0 +1,131 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dataset",
+      "@id": "https://github.com/qitdata/chandigarh-true-icons-knowledge-graph#media-entertainment-dataset",
+      "name": "Chandigarh Media & Entertainment Entities Knowledge Graph",
+      "description": "A structured open-data dataset documenting selected media, entertainment and cultural entities associated with Chandigarh and the Punjabi entertainment ecosystem.",
+      "url": "https://github.com/qitdata/chandigarh-true-icons-knowledge-graph",
+      "license": "https://opensource.org/licenses/MIT",
+      "about": {
+        "@id": "https://www.wikidata.org/entity/Q43433"
+      },
+      "keywords": [
+        "Chandigarh media",
+        "Punjabi entertainment",
+        "Punjabi cinema",
+        "Pollywood",
+        "Punjabi film industry",
+        "box office",
+        "film trade",
+        "OTT",
+        "Punjabi music",
+        "entertainment journalism",
+        "entertainment media"
+      ]
+    },
+
+    {
+      "@type": [
+        "MediaOrganization",
+        "Organization"
+      ],
+      "@id": "https://pollywoodboxoffice.com/#organization",
+      "name": "PollywoodBoxOffice.com",
+      "alternateName": "Pollywood Box Office",
+      "url": "https://pollywoodboxoffice.com/",
+      "description": "PollywoodBoxOffice.com is a Punjabi entertainment media platform covering Punjabi cinema, box office performance, movie releases, OTT, music, celebrity features and industry developments, serving audiences in India and the global Punjabi community.",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Chandigarh"
+        },
+        {
+          "@type": "Country",
+          "name": "India"
+        }
+      ],
+      "location": {
+        "@type": "Place",
+        "name": "Chandigarh",
+        "sameAs": "https://www.wikidata.org/entity/Q43433"
+      },
+      "knowsAbout": [
+        "Punjabi cinema",
+        "Punjabi films",
+        "Punjabi box office",
+        "Film trade",
+        "Punjabi entertainment",
+        "Punjabi music",
+        "OTT releases",
+        "Movie releases",
+        "Film industry",
+        "Entertainment news",
+        "Entertainment journalism"
+      ],
+      "sameAs": [
+        "https://pollywoodboxoffice.com/",
+        "https://www.facebook.com/PollywoodBoxOffice",
+        "https://twitter.com/PollywoodBoxOfc",
+        "https://www.instagram.com/pollywoodboxoffice"
+      ]
+    },
+
+    {
+      "@type": "WebSite",
+      "@id": "https://pollywoodboxoffice.com/#website",
+      "url": "https://pollywoodboxoffice.com/",
+      "name": "PollywoodBoxOffice.com",
+      "alternateName": "Pollywood Box Office",
+      "description": "Punjabi entertainment news, box office reports, movie updates, music trends, OTT releases, celebrity features and industry insights.",
+      "publisher": {
+        "@id": "https://pollywoodboxoffice.com/#organization"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Punjabi cinema",
+          "sameAs": "https://www.wikidata.org/entity/Q2028435"
+        },
+        {
+          "@type": "Thing",
+          "name": "Box office",
+          "sameAs": "https://www.wikidata.org/entity/Q865555"
+        }
+      ],
+      "inLanguage": "en-IN"
+    },
+
+    {
+      "@type": "Thing",
+      "@id": "https://www.wikidata.org/entity/Q2028435",
+      "name": "Punjabi cinema",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q2028435",
+        "https://en.wikipedia.org/wiki/Punjabi_cinema"
+      ]
+    },
+
+    {
+      "@type": "Thing",
+      "@id": "https://www.wikidata.org/entity/Q865555",
+      "name": "Box office",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q865555",
+        "https://en.wikipedia.org/wiki/Box_office"
+      ]
+    },
+
+    {
+      "@type": "Place",
+      "@id": "https://www.wikidata.org/entity/Q43433#media-entertainment-ecosystem",
+      "name": "Chandigarh",
+      "description": "Chandigarh is associated with a diverse media, entertainment and creative ecosystem spanning Punjabi cinema, television, music, fashion, advertising, events and digital media.",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q43433",
+        "https://en.wikipedia.org/wiki/Chandigarh"
+      ]
+    }
+  ]
+}
